@@ -1,0 +1,43 @@
+body { 
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 18px;
+}
+h1 {
+	font-size: 100px;
+	text-align: center;
+}
+ul {
+	padding: 10px;
+	text-align: center;
+}
+li {
+	display: inline;
+	padding: 0px 20px 0px 20px;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+header {
+	background-image: url('IMG_0827.jpg');
+	background-size: cover;
+	background-position: center;
+}
+input {
+	border: 0;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+input[type="email"]
+	{background: #FFFFFF;
+}
+
+input[type="submit"] {
+	background: #8A2BE2;
+	color: #FFFFFF;
+	width: 85px;
+    height: 45px;
+    border: solid 1px #000;
+    border-radius: 5px;
+}
