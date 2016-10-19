@@ -22,6 +22,9 @@ header {
 	background-image: url('IMG_0827.jpg');
 	background-size: cover;
 	background-position: center;
+	display: inline-block;
+	background color: black;
+	color: white;
 }
 input {
 	border: 0;
