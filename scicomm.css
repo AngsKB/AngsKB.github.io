@@ -10,7 +10,7 @@ article {
 	margin: 0 auto;
 }
 body {
-	background-color: #191970
+	background-color: #191970;
 	color: #FFFFFF;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 20px;
@@ -18,7 +18,7 @@ body {
 button {
 	background: #737373;
 	font-size: 40px;
-	font-family: 'Orbitron', sans-serif;
+	font-family: Helvetica;
 	color: #FFFFFF;
 	border: 7px solid #737373;
 	border-radius: 30px;
@@ -26,6 +26,7 @@ button {
 h1 {
 	font-size: 100px;
 	text-align: center;
+	color: white; 
 }
 header {
 	background-image: url('IMG_0827.jpg');
