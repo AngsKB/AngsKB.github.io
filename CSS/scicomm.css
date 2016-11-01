@@ -1,4 +1,9 @@
 
+.biologyimages {
+	height: 60px;
+	width: 20px;
+}
+
 a{
 	color: #FFFFFF;
 	display: block;
@@ -30,7 +35,7 @@ h1 {
 	color: white;
 }
 header {
-	background-image: url(/Images/IMG_0827.jpg);
+	background-image: img src='/images/IMG_0827.jpg';
 	background-size: cover;
 	background-position: center;
 	height: 300px;
@@ -96,14 +101,6 @@ li {
     box-sizing: border-box;
 }
 
-.biologyimages {
-	height: 60px;
-	width: 20px;
+.test {
+	margin-top: 128px;
 }
-
-.physicsimages {
-	height: 60px;
-	width: 20px;
-}
-
-
