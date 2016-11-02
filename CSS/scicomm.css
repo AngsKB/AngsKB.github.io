@@ -34,12 +34,17 @@ h1 {
 	text-align: center;
 	color: white;
 }
-header {
+.homepage {
 	background-image: img src='/images/IMG_0827.jpg';
 	background-size: cover;
 	background-position: center;
 	height: 300px;
-
+}
+.resources {
+	background-image: url('DNA.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
 }
 input {
 	border: 0;
