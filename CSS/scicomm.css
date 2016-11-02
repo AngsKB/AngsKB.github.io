@@ -41,7 +41,7 @@ h1 {
 	height: 300px;
 }
 .resources {
-	background-image: url('DNA.jpg');
+	background-image: img src='/images/DNA.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 300px;
