@@ -35,13 +35,13 @@ h1 {
 	color: white;
 }
 .homepage {
-	background-image: img src='/images/IMG_0827.jpg';
+	background: url("../Images/IMG_0827.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 300px;
 }
 .resources {
-	background-image: img src='/images/DNA.jpg');
+	background-image: url("../Images/DNA.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 300px;
