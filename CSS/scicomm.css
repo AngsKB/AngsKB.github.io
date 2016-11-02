@@ -21,6 +21,7 @@ body {
 	font-family: 'Orbitron', sans-serif;
 	font-size: 20px;
 }
+
 button {
 		font-family: Helvetica;
 background: #737373;
@@ -46,6 +47,7 @@ h1 {
 	background-position: center;
 	height: 300px;
 }
+
 .ScienceImages {
 	height: 400px;
 	width: 400px;
