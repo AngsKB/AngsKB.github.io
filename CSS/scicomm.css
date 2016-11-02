@@ -46,6 +46,10 @@ h1 {
 	background-position: center;
 	height: 300px;
 }
+.ScienceImages {
+	height: 400px;
+	width: 400px;
+}
 input {
 	border: 0;
 	padding: 10px;
