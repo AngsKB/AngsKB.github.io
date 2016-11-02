@@ -28,12 +28,20 @@ h1 {
 	text-align: center;
 	color: white;
 }
-header {
+h2 {
+	font-size: 65px;
+}
+.homepage {
 	background-image: url('IMG_0827.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 300px;
-
+}
+.resources {
+	background-image: url('DNA.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
 }
 input {
 	border: 0;
