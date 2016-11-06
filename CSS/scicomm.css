@@ -15,31 +15,55 @@ article {
 	max-width: 500px;
 	margin: 0 auto;
 }
+#atom-image {
+	padding: 0 0 70px 50px;
+	height: 280px;
+	width: 280px;
+}
 body {
 	background-color: #19334d;
 	color: #FFFFFF;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 20px;
 }
-
+br {
+   margin-top: 60px;
+}
 button {
-		font-family: Helvetica;
-background: #737373;
+	font-family: 'Helvetica';
+	background: #737373;
 	font-size: 40px;
 	color: #FFFFFF;
 	border: 7px solid #737373;
 	border-radius: 30px;
 }
+#classification-image {
+	width: 400px;
+	height: 550px;
+	padding:0 0 100px 50px;
+}
+#em-table {
+	width: 90%;
+	font-family: 'Helvetica';
+	background-color: white;
+	color: black;
+	border-collapse: collapse;
+	margin: 0px 20px 20px 30px;
+}
+#em-table tr:nth-child(even) {background-color: #f2f2f2}
+#em-table td, #em-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#em-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
 h1 {
 	font-size: 100px;
 	text-align: center;
 	color: white;
-}
-.homepage {
-	background: url("../Images/IMG_0827.jpg");
-	background-size: cover;
-	background-position: center;
-	height: 300px;
 }
 .resources {
 	background-image: url("../Images/DNA.jpg");
@@ -47,7 +71,40 @@ h1 {
 	background-position: center;
 	height: 300px;
 }
-
+#biology {
+	font-size: 60px;
+	padding: 0px 0px 30px 10px;
+}
+#chemistry {
+	font-size: 60px;
+	padding: 0px 0px 30px 10px;
+}
+#physics {
+	font-size: 60px;
+	padding: 0px 0px 30px 10px;
+}
+.resources-subtitle {
+	font-size: 40px;
+	font-family: 'Helvetica';
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+.resources-info {
+	font-size: 20px;
+	font-family: 'Helvetica';
+	padding: 0px 10px 20px 20px;
+	text-align: justify;
+}
+iframe {
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+.homepage {
+	background: url("../Images/IMG_0827.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
 .ScienceImages {
 	height: 400px;
 	width: 400px;
@@ -66,9 +123,9 @@ input[type="submit"] {
 	background: #8A2BE2;
 	color: #FFFFFF;
 	width: 85px;
-    height: 45px;
-    border: solid 1px #000;
-    border-radius: 5px;
+  height: 45px;
+  border: solid 1px #000;
+  border-radius: 5px;
 }
 li {
 	display: inline;
@@ -86,7 +143,11 @@ li {
 	}
 	a {color: #FFFFFF;}
 }*/
-
+.organic-chem-images {
+	height: 100px;
+	width: 170px;
+	margin-bottom: 300px;
+}
 .quiz-home-btn {
     padding: 8px 32px;
     display: inline;
@@ -111,7 +172,10 @@ li {
     white-space: nowrap;
     box-sizing: border-box;
 }
-
+#taxonomy {
+	list-style-type: circle;
+	font-family: 'Helvetica';
+}
 .test {
 	margin-top: 128px;
 }
