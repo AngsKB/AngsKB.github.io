@@ -120,7 +120,8 @@ input[type="email"]
 }
 
 input[type="submit"] {
-	background: #8A2BE2;
+	background: #737373;
+	font-family: 'Helvetica'
 	color: #FFFFFF;
 	width: 85px;
   height: 45px;
