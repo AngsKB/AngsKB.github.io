@@ -1,3 +1,7 @@
+.col-xs-6 {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
 
 .biologyimages {
 	height: 60px;
@@ -110,6 +114,7 @@ iframe {
 	height: 300px;
 }
 .ScienceImages {
+	margin-bottom: 50px;
 	height: 400px;
 	width: 400px;
 }
