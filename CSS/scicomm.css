@@ -37,6 +37,10 @@ button {
 	border: 7px solid #737373;
 	border-radius: 30px;
 }
+.carousel-images {
+	height: 400px;
+	width: 700px;
+}
 #classification-image {
 	width: 400px;
 	height: 550px;
@@ -178,4 +182,12 @@ li {
 }
 .test {
 	margin-top: 128px;
+}
+.tooltip .tooltiptext {
+	 width: 120px;
+	 background-color: black;
+	 color: #fff;
+	 text-align: center;
+	 padding: 5px 0;
+	 border-radius: 6px;
 }
