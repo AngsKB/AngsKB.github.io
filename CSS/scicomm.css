@@ -124,7 +124,8 @@ input[type="email"]
 }
 
 input[type="submit"] {
-	background: #8A2BE2;
+	background:-webkit-linear-gradient(top,#b4cb35 0%,#7f9a13 100%);
+    font-family: 'Roboto',Arial,sans-serif;
 	color: #FFFFFF;
 	width: 85px;
   height: 45px;
