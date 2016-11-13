@@ -5,9 +5,9 @@
     <title>Resources</title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="CSS/scicomm.css" type="text/css"/>
-    <script src="Bootstrap/js/bootstrap.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
   <body>
     <header class="resources">
@@ -56,13 +56,19 @@
           <p class='resources-info'>All organic compounds, whether they are a solid, liquid or gas, contain carbon atoms. Organic chemistry looks at the structure, properties and reactions of such compounds. Since organic compounds often contain other elements in addition to carbon, such as oxygen, hydrogen, nitrogen and sulphur, organic compounds have a vast array of properties. Take a look at some examples of organic compounds and their structures to the right (hover your mouse over each to reveal its name).</p>
         </div>
         <div class="col-md-2">
-          <a href="#" data-toggle="tooltip" title="Ester"><img class='organic-chem-images' src='Images/ester.png'></a>
+          <p class="myPop"><a href="#" data-toggle="popover" title="Ester">
+            <img class='organic-chem-images' src='Images/ester.png'>
+          </a></p>
         </div>
         <div class="col-md-2">
-          <a href="#" data-toggle="tooltip" title="Ketone"><img class='organic-chem-images' src='Images/ketone.jpg'></a>
+          <p class="myPop"><a href="#" data-toggle="popover" title="Ketone">
+            <img class='organic-chem-images' src='Images/ketone.jpg'>
+          </a></p>
         </div>
         <div class="col-md-2">
-          <a href="#" data-toggle="tooltip" title="Alcohol"><img class='organic-chem-images' src='Images/alcohol.jpg'></a>
+          <p class="myPop"><a href="#" data-toggle="popover" title="Alcohol">
+            <img class='organic-chem-images' src='Images/alcohol.jpg'>
+          </a></p>
         </div>
       </section>
       <br>
@@ -129,6 +135,10 @@
           </tr>
         </table>
       </section>
-    <script src="jquery.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();
+        });
+      </script>
     </body>
 </html>

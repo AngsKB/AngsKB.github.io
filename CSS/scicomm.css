@@ -44,7 +44,7 @@ button {
 .carousel-images {
 	height: 400px;
 	width: 700px;
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 #classification-image {
 	width: 400px;
@@ -154,6 +154,10 @@ li {
 	}
 	a {color: #FFFFFF;}
 }*/
+.myPop {
+	font-size: 60px;
+	font-family: 'Orbitron', sans-serif;	
+}
 .organic-chem-images {
 	height: 100px;
 	width: 170px;
