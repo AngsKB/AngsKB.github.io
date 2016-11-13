@@ -153,6 +153,12 @@ li {
 	}
 	a {color: #FFFFFF;}
 }*/
+ #myCarousel {
+ width: 500px;
+ height: 250px;
+ display: block;
+    }
+
 .organic-chem-images {
 	height: 100px;
 	width: 170px;
