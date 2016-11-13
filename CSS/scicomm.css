@@ -44,6 +44,7 @@ button {
 .carousel-images {
 	height: 400px;
 	width: 700px;
+	margin: 0 auto; 
 }
 #classification-image {
 	width: 400px;
