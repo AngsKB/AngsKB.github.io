@@ -175,9 +175,7 @@ li {
     outline: 0 none;
     border-radius: 5px;
     white-space: nowrap;
-    box-sizing: border-box;
-}
-
+    box-sizing: border-box;}
 }
 
 @media(min-width: 500px) {
@@ -203,8 +201,7 @@ li {
     outline: 0 none;
     border-radius: 5px;
     white-space: nowrap;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 }
 
 .myPop {
