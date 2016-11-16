@@ -3,11 +3,13 @@
 <html>
   <head>
     <title>Resources</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="CSS/scicomm.css" type="text/css"/>
-    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/scicomm.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header class="resources">
@@ -39,7 +41,7 @@
         <img id='classification-image' src='Images/Classification.png'>
       </div>
       </section>
-      <br>
+    </br>
       <section>
         <h2 id='chemistry'> Chemistry </h2>
         <h3 class='resources-subtitle'>Structure of the Atom</h3>
@@ -54,22 +56,22 @@
           <p class='resources-info'>All organic compounds, whether they are a solid, liquid or gas, contain carbon atoms. Organic chemistry looks at the structure, properties and reactions of such compounds. Since organic compounds often contain other elements in addition to carbon, such as oxygen, hydrogen, nitrogen and sulphur, organic compounds have a vast array of properties. Take a look at some examples of organic compounds and their structures to the right (hover your mouse over each to reveal its name).</p>
         </div>
         <div class="col-md-2">
-          <p class="myPop"><a href="#" data-toggle="popover" title="Ester">
+          <p class="myTT"><a href="#" data-toggle="tooltip" title="Ester">
             <img class='organic-chem-images' src='Images/ester.png'>
           </a></p>
         </div>
         <div class="col-md-2">
-          <p class="myPop"><a href="#" data-toggle="popover" title="Ketone">
+          <p class="myTT"><a href="#" data-toggle="tooltip" title="Ketone">
             <img class='organic-chem-images' src='Images/ketone.jpg'>
           </a></p>
         </div>
         <div class="col-md-2">
-          <p class="myPop"><a href="#" data-toggle="popover" title="Alcohol">
+          <p class="myTT"><a href="#" data-toggle="tooltip" title="Alcohol">
             <img class='organic-chem-images' src='Images/alcohol.jpg'>
           </a></p>
         </div>
       </section>
-      <br>
+    </br>
       <section>
         <h2 id='physics'> Physics </h2>
         <h3 class='resources-subtitle'>The Electromagnetic Spectrum</h3>
@@ -133,9 +135,9 @@
           </tr>
         </table>
       </section>
-      <script type="text/javascript">
+      <script>
         $(document).ready(function(){
-          $('[data-toggle="popover"]').popover();
+          $('[data-toggle="tooltip"]').tooltip();
         });
       </script>
     </body>
