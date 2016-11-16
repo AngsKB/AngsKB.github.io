@@ -153,12 +153,21 @@ li {
 	}
 	a {color: #FFFFFF;}
 }
-
-
-.myPop {
-	font-size: 60px;
-	font-family: 'Orbitron', sans-serif;	
+.tooltip {
+  position: relative;
 }
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
 .organic-chem-images {
 	height: 100px;
 	width: 170px;
@@ -209,49 +218,46 @@ li {
 	background: #00FFFF;
 }
 
-.answers li { 
-list-style: upper-alpha; 
-} 
-
-label { 
-margin-left: 0.5em; 
-cursor: pointer; 
-color: #00FFFF;
-} 
-
-#results { 
-background: #dddada; 
-color: 000000; 
-padding: 3px; 
-text-align: center; 
-width: 200px; 
-cursor: pointer; 
-border: 1px solid gray; 
+.answers li {
+list-style: upper-alpha;
 }
 
-#results:hover { 
-background: #3d91b8; 
-color: #ffffff; 
-padding: 3px; 
-text-align: center; 
-width: 200px; 
-cursor: pointer; 
-border: 1px solid gray; 
-} 
+label {
+margin-left: 0.5em;
+cursor: pointer;
+color: #00FFFF;
+}
 
-#categorylist { 
-margin-top: 6px; 
-display: none; 
-} 
+#results {
+background: #dddada;
+color: 000000;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
 
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 { 
-display: none; 
+#results:hover {
+background: #3d91b8;
+color: #ffffff;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#categorylist {
+margin-top: 6px;
+display: none;
+}
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
+display: none;
 }
 
 #closing {
 display: none;
 font-style: italic;
 }
-
-
-
