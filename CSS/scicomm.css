@@ -153,6 +153,8 @@ li {
 	}
 	a {color: #FFFFFF;}
 }
+
+
 .myPop {
 	font-size: 60px;
 	font-family: 'Orbitron', sans-serif;	
@@ -185,6 +187,7 @@ li {
     border-radius: 5px;
     white-space: nowrap;
     box-sizing: border-box;
+
 }
 #taxonomy {
 	list-style-type: circle;
@@ -201,8 +204,6 @@ li {
 	 padding: 5px 0;
 	 border-radius: 6px;
 }
-
-
 
 .Biologyquiz {
 	background: #00FFFF;
