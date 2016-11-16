@@ -198,9 +198,6 @@ li {
     box-sizing: border-box;
 }
 
->>>>>>> origin/master
-}
-
 @media(min-width: 500px) {
 	.quiz-home-btn {
     padding: 8px 32px;
