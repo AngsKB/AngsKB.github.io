@@ -1,0 +1,298 @@
+.col-xs-6 {
+	margin-bottom: 0px;
+	margin-top: 100px;
+}
+
+.biologyimages {
+	height: 60px;
+	width: 20px;
+}
+
+a{
+	color: #FFFFFF;
+	display: block;
+}
+article {
+	width: auto;
+	font-size: 30px;
+
+}
+#atom-image {
+	padding: 0 0 70px 50px;
+	height: 280px;
+	width: 280px;
+}
+body {
+	background-color: #19334d;
+	color: #FFFFFF;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+}
+br {
+   margin-top: 60px;
+}
+button {
+	font-family: 'Helvetica';
+	background: #737373;
+	font-size: 40px;
+	color: #FFFFFF;
+	border: 7px solid #737373;
+	border-radius: 30px;
+}
+.carousel-images {
+	height: 400px;
+	width: 700px;
+	margin: 0 auto;
+}
+#classification-image {
+	width: 400px;
+	height: 550px;
+	padding:0 0 100px 50px;
+}
+#em-table {
+	width: 90%;
+	font-family: 'Helvetica';
+	background-color: white;
+	color: black;
+	border-collapse: collapse;
+	margin: 0px 20px 20px 30px;
+}
+#em-table tr:nth-child(even) {background-color: #f2f2f2}
+#em-table td, #em-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#em-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+h1 {
+	padding-top: 80px;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
+.resources {
+	background-image: url("../Images/DNA.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+#biology {
+	font-size: 60px;
+	padding: 0px 0px 30px 10px;
+}
+#chemistry {
+	font-size: 60px;
+	padding: 0px 0px 30px 10px;
+}
+#physics {
+	font-size: 60px;
+	padding: 0px 0px 30px 10px;
+}
+.resources-subtitle {
+	font-size: 40px;
+	font-family: 'Helvetica';
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+.resources-info {
+	font-size: 20px;
+	font-family: 'Helvetica';
+	padding: 0px 10px 20px 20px;
+	text-align: justify;
+}
+iframe {
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+.homepage {
+	background: url("../Images/IMG_0827.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+.ScienceImages {
+	margin-bottom: 50px;
+	height: 400px;
+	width: 400px;
+}
+input {
+	border: 0;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+input[type="email"]
+	{background: #FFFFFF;
+}
+
+input[type="submit"] {
+	background:-webkit-linear-gradient(top,#b4cb35 0%,#7f9a13 100%);
+    font-family: 'Roboto',Arial,sans-serif;
+	color: #FFFFFF;
+	width: 85px;
+  height: 45px;
+  border: solid 1px #000;
+  border-radius: 5px;
+}
+li {
+	display: inline;
+	padding: 0px 20px 0px 20px;
+	font-size: 24px;
+	margin-top: 200px;
+}
+@media (max-width: 500px) {
+	h1 {
+        font-size: 36px;
+      }
+      li {
+        float: left;
+        padding: 5px;
+	}
+	a {color: #FFFFFF;}
+
+}
+.tooltip {
+  position: relative;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.organic-chem-images {
+	height: 100px;
+	width: 170px;
+	margin-bottom: 300px;
+}
+.quiz-home-btn {
+    padding: 8px 32px;
+    display: inline;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0,0,0,.4);
+    -webkit-text-stroke: .5px;
+    font-size: 15px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(top,#e6005c 0%,#ff3385 100%);
+    font-weight: 700;
+    font-family: 'Roboto',Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset,0 1px 2px rgba(0,0,0,.2);
+    position: relative;
+    outline: 0 none;
+    border-radius: 5px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+@media(min-width: 500px) {
+	.quiz-home-btn {
+    padding: 8px 32px;
+    display: inline;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0,0,0,.4);
+    -webkit-text-stroke: .5px;
+    font-size: 34px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(top,#b4cb35 0%,#7f9a13 100%);
+    font-weight: 700;
+    font-family: 'Roboto',Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset,0 1px 2px rgba(0,0,0,.2);
+    position: relative;
+    outline: 0 none;
+    border-radius: 5px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+}
+
+.myPop {
+	font-size: 60px;
+	font-family: 'Orbitron', sans-serif;
+}
+.organic-chem-images {
+	height: 100px;
+	width: 170px;
+	margin-bottom: 300px;
+}
+
+#taxonomy {
+	list-style-type: circle;
+	font-family: 'Helvetica';
+}
+.test {
+	margin-top: 128px;
+}
+.tooltip .tooltiptext {
+	 width: 120px;
+	 background-color: black;
+	 color: #fff;
+	 text-align: center;
+}
+
+.Biologyquiz {
+	background: #00FFFF;
+}
+
+.answers li {
+list-style: upper-alpha;
+}
+
+label {
+margin-left: 0.5em;
+cursor: pointer;
+color: #00FFFF;
+}
+
+#results {
+background: #dddada;
+color: 000000;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#results:hover {
+background: #3d91b8;
+color: #ffffff;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#categorylist {
+margin-top: 6px;
+display: none;
+}
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
+display: none;
+}
+
+#closing {
+display: none;
+font-style: italic;
+}
